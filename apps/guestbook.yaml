@@ -13,4 +13,5 @@ spec:
     repoURL: https://github.com/r0bj/argocd-example-apps.git
     targetRevision: HEAD
   syncPolicy:
-    automated: {}
+    automated:
+      selfHeal: true
